@@ -41,7 +41,12 @@ li {
   height: 1404px;
   border: 1px solid black;
   margin: 0 auto;
-  padding-top: 30%;
+  font-size: 90px;
+}
+
+.flex {
+  display: flex;
+  align-items: start;
 }
 
 .container-full {
@@ -88,6 +93,67 @@ li {
 .gn-navbar .gn-register {
   padding-right: 16px;
   margin-left: 16px;
+}
+
+.logo-wrapper {
+  width: 24.4%;
+}
+
+.logo-wrapper {
+  width: 24.4%;
+}
+.logo-wrapper::before {
+  content: "";
+  display: block;
+  width: 100%;
+  padding-top: 75%;
+}
+.logo-wrapper .logo {
+  background-image: url("../images/common/logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ro-navbar {
+  width: 75.6%;
+}
+.ro-navbar .nav-item {
+  width: 12.5%;
+  display: inline-block;
+}
+.ro-navbar .nav-item .nav-img-setting {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  height: 100px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.ro-navbar .nav-item .nav-img-setting.bg1 {
+  background-image: url("../images/common/img_gnb01.png");
+}
+.ro-navbar .nav-item .nav-img-setting.bg2 {
+  background-image: url("../images/common/img_gnb02.png");
+}
+.ro-navbar .nav-item .nav-img-setting.bg3 {
+  background-image: url("../images/common/img_gnb03.png");
+}
+.ro-navbar .nav-item .nav-img-setting.bg4 {
+  background-image: url("../images/common/img_gnb04.png");
+}
+.ro-navbar .nav-item .nav-img-setting.bg5 {
+  background-image: url("../images/common/img_gnb05.png");
+}
+.ro-navbar .nav-item .nav-img-setting.bg6 {
+  background-image: url("../images/common/img_gnb06.png");
 }
 
 .jumbotron {
